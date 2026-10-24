@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "minimods",
+	"version": "${version}",
+	"name": "Mini Mody",
+	"description": "Menu mini modów w stylu Lunar Client: FPS, CPS, współrzędne, kierunek, prędkość, ping, pancerz, klawisze i zegar. Własne kolory, przeciąganie modułów, menu pod Prawym Shiftem.",
+	"authors": [],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.minimods.MiniModsClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
